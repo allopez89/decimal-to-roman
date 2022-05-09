@@ -33,7 +33,7 @@ String decimalToRoman(String? number) {
   };
 
   for (var key in romanMap.keys) {
-    while (decimal! >= key) {
+    while (decimal >= key) {
       roman.write(romanMap[key]);
       decimal -= key;
     }
