@@ -11,13 +11,13 @@
 
 6. SUnit para el lenguaje Smalltalk.
 
-7.
-  - Test Runner: un programa ejecutable que corre todos los tests implementados.
-  - Test Case: la clase elemental, todos las pruebas unitarias heredan de esta.
-  - Test Fixture: un conjunto de precondiciones o estado necesario para correr los tests.
-  - Test Suites: un conjunto de test que comparten el mismo fixture.
-  - Test Execution: la ejecución del test, que se conforma por una preparación, el cuerpo del test, y la limpieza del fixture.
+7. Estos son:
+    - Test Runner: un programa ejecutable que corre todos los tests implementados.
+    - Test Case: la clase elemental, todos las pruebas unitarias heredan de esta.
+    - Test Fixture: un conjunto de precondiciones o estado necesario para correr los tests.
+    - Test Suites: un conjunto de test que comparten el mismo fixture.
+    - Test Execution: la ejecución del test, que se conforma por una preparación, el cuerpo del test, y la limpieza del fixture.
 
-8.Los programadores que utilizan el desarrollo guiado por pruebas en un proyecto virgen encuentran que en raras ocasiones tienen la necesidad de utilizar el depurador. A pesar de los elevados requisitos iniciales de aplicar esta metodología, el desarrollo guiado por pruebas (TDD) puede proporcionar un gran valor añadido en la creación de software, produciendo aplicaciones de más calidad y en menos tiempo.El poder del TDD radica en la capacidad de avanzar en pequeños pasos cuando se necesita. Permite que un programador se centre en la tarea actual y la primera meta es, a menudo, hacer que la prueba pase.
+8. Los programadores que utilizan el desarrollo guiado por pruebas en un proyecto virgen encuentran que en raras ocasiones tienen la necesidad de utilizar el depurador. A pesar de los elevados requisitos iniciales de aplicar esta metodología, el desarrollo guiado por pruebas (TDD) puede proporcionar un gran valor añadido en la creación de software, produciendo aplicaciones de más calidad y en menos tiempo.El poder del TDD radica en la capacidad de avanzar en pequeños pasos cuando se necesita. Permite que un programador se centre en la tarea actual y la primera meta es, a menudo, hacer que la prueba pase.
 
-9.El desarrollo basado en pruebas no realiza suficientes pruebas en situaciones en las que se requieren pruebas funcionales completas para determinar el éxito o el fracaso, debido al uso extensivo de pruebas unitarias. Ejemplos de estos son las interfaces de usuario, los programas que funcionan con bases de datos y algunos que dependen de configuraciones de red específicas.Las pruebas unitarias creadas en un entorno de desarrollo basado en pruebas generalmente las crea el desarrollador que está escribiendo el código que se está probando. Por lo tanto, las pruebas pueden compartir puntos ciegos con el código.Las pruebas se convierten en parte de los gastos generales de mantenimiento de un proyecto. Las pruebas mal escritas, por ejemplo, las que incluyen cadenas de errores codificadas, son propensas a fallar y su mantenimiento es costoso.
+9. El desarrollo basado en pruebas no realiza suficientes pruebas en situaciones en las que se requieren pruebas funcionales completas para determinar el éxito o el fracaso, debido al uso extensivo de pruebas unitarias. Ejemplos de estos son las interfaces de usuario, los programas que funcionan con bases de datos y algunos que dependen de configuraciones de red específicas.Las pruebas unitarias creadas en un entorno de desarrollo basado en pruebas generalmente las crea el desarrollador que está escribiendo el código que se está probando. Por lo tanto, las pruebas pueden compartir puntos ciegos con el código.Las pruebas se convierten en parte de los gastos generales de mantenimiento de un proyecto. Las pruebas mal escritas, por ejemplo, las que incluyen cadenas de errores codificadas, son propensas a fallar y su mantenimiento es costoso.
